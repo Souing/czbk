@@ -1,0 +1,6 @@
+c:\users\yzk\documents\visual studio 2012\Projects\NET0215串讲\RuupengORM\bin\Debug\RuupengORM.exe.config
+c:\users\yzk\documents\visual studio 2012\Projects\NET0215串讲\RuupengORM\bin\Debug\RuupengORM.exe
+c:\users\yzk\documents\visual studio 2012\Projects\NET0215串讲\RuupengORM\bin\Debug\RuupengORM.pdb
+c:\users\yzk\documents\visual studio 2012\Projects\NET0215串讲\RuupengORM\obj\Debug\RuupengORM.csprojResolveAssemblyReference.cache
+c:\users\yzk\documents\visual studio 2012\Projects\NET0215串讲\RuupengORM\obj\Debug\RuupengORM.exe
+c:\users\yzk\documents\visual studio 2012\Projects\NET0215串讲\RuupengORM\obj\Debug\RuupengORM.pdb
