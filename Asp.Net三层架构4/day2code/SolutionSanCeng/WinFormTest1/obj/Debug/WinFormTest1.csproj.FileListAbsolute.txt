@@ -1,0 +1,10 @@
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\WinFormTest1\bin\Debug\WinFormTest1.exe.config
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\WinFormTest1\bin\Debug\WinFormTest1.exe
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\WinFormTest1\bin\Debug\WinFormTest1.pdb
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\WinFormTest1\obj\Debug\WinFormTest1.csprojResolveAssemblyReference.cache
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\WinFormTest1\obj\Debug\WinFormTest1.Form1.resources
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\WinFormTest1\obj\Debug\WinFormTest1.Properties.Resources.resources
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\WinFormTest1\obj\Debug\WinFormTest1.csproj.GenerateResource.Cache
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\WinFormTest1\obj\Debug\WinFormTest1.exe
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\WinFormTest1\obj\Debug\WinFormTest1.pdb
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\WinFormTest1\obj\Debug\WinFormTest1.FormAbout.resources

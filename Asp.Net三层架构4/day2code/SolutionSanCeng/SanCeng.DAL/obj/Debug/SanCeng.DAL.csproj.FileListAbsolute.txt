@@ -1,0 +1,7 @@
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.DAL\bin\Debug\SanCeng.DAL.dll
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.DAL\bin\Debug\SanCeng.DAL.pdb
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.DAL\bin\Debug\SanCeng.Model.dll
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.DAL\bin\Debug\SanCeng.Model.pdb
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.DAL\obj\Debug\SanCeng.DAL.csprojResolveAssemblyReference.cache
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.DAL\obj\Debug\SanCeng.DAL.dll
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.DAL\obj\Debug\SanCeng.DAL.pdb

@@ -1,0 +1,15 @@
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.WinForm\bin\Debug\SanCeng.WinForm.exe.config
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.WinForm\bin\Debug\SanCeng.WinForm.exe
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.WinForm\bin\Debug\SanCeng.WinForm.pdb
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.WinForm\bin\Debug\SanCeng.BLL.dll
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.WinForm\bin\Debug\SanCeng.Model.dll
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.WinForm\bin\Debug\SanCeng.BLL.pdb
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.WinForm\bin\Debug\SanCeng.Model.pdb
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.WinForm\obj\Debug\SanCeng.WinForm.csprojResolveAssemblyReference.cache
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.WinForm\obj\Debug\SanCeng.WinForm.Properties.Resources.resources
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.WinForm\obj\Debug\SanCeng.WinForm.csproj.GenerateResource.Cache
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.WinForm\obj\Debug\SanCeng.WinForm.exe
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.WinForm\obj\Debug\SanCeng.WinForm.pdb
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.WinForm\bin\Debug\SanCeng.DAL.dll
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.WinForm\bin\Debug\SanCeng.DAL.pdb
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.WinForm\obj\Debug\SanCeng.WinForm.Form1.resources

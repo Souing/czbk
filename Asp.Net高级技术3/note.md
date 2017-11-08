@@ -21,7 +21,52 @@ var person = (Person) constructorInfo.Invoke(new object[2]{"1","2"});
 
 ## 2. 委托、lambda、事件(新版)
 
-### 2.1 
+### 2.1 委托和事件的概念语法 
+
+> 声明委托的方式:delegate返回值类型   委托类型名(参数)
+>
+> 比如delegate void MyDel(int n)
+>
+> 事件语法：event Mydelegate mdl;
+>
+> 加了event关键字实现事件机制的好处：用了event事件，不可以修改事件已经注册的值；不可以冒充进行事件通知了。只能+=、-=！
+
+```
+public delegate void CardOutPutAction();
+public event Action CardOutEvent;
+public event CardOutPutAction CardOutPutEvent;
+```
+
+### 2.2 委托和事件的作用总结
+
+#### 2.2.1 委托的作用
+
+> 占位，在不知道将来要执行的方法的具体代码时，可以先用一个委托变量来代替方法调用（委托的返回值，参数列表要确定）。在实际调用之前，需要为委托赋值,否则为null
+
+#### 2.2.2 事件的作用
+
+> 事件的作用与委托变量一样，只是功能上比委托变量有更多的限制。（比如：1.只能通过+=或-=来绑定方法（事件处理程序）2.只能在类内部调用（触发）事件。）
+
+### 2.3 委托和事件的区别和关系
+
+> 错误的说法“事件是一种特殊的委托”
+>
+> 委托用的比较多，事件只有开发WinForm、WPF的时候用的才比较多，而WinForm、WPF则不是学习重点。掌握“事件和语法”、“委托和事件的关系和区别（面试题）”即可。
+>
+> 事件监听的代码的快速生成；WinForm中的事件简单分析（谁调用的Onclick方法）
+>
+> 事件、索引器、属性本质上都是方法。（面试题）接口中可以定义什么？接口中只可以定义方法。接口中也可以定义“事件、索引器、属性”，因为他们本质上也都是方法。
+>
+
+### 2.4 集合常用扩展方法
+
+> * Where（支持委托）、Select（支持委托）、Max、Min、OrderBy
+> * First（获取第一个，如果一个都没有则异常）
+> * FirstOrDefault（获取第一个，如果一个都没有则返回默认值）
+> * Single （获取唯一一个，如果没有或者有多个则异常） 
+> * SingleOrDefault（获取唯一一个，如果没有则返回默认值，如果有多个则异常
+
+
 
 ## 3. 各种知识点(新版)
 
@@ -121,3 +166,12 @@ object.ReferenceEquals(t1, t2)
 
 
 
+### 3. int、int.parse、convert.int区别
+
+> (int)适合***简单数据类型***之间的转换；
+>
+> int.Parse适合将***string***类类型转换成***int***类型
+>
+> convert适合将***object***类类型转换成***int***类型
+>
+> Convert.ToInt32(null)会返回0而不会产生任何异常，但int.Parse(null)则会产生异常。

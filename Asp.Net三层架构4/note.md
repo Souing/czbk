@@ -2,7 +2,7 @@
 
 ## 1. 三层架构中如何处理事务（TransactionScope）
 
-## 概念
+### 概念
 
 > * TransactionScope是ADO.Net提供的事务机制（需要添加对system.transactioins的引用），在普通ADO.Net代码中也可以用、在Entity Framework、Dapper等ORM中也可以用；
 > * 把相关需要事务处理的代码用TransactionScope包裹起来即可， 只要没有Complete()的就会回滚
@@ -31,4 +31,44 @@ using (TransactionScope sc = new TransactionScope())
 ### 重要
 
 > 
+
+## 6. MD5
+
+```C#
+        public static string MD5(string s)
+        {
+            System.Security.Cryptography.MD5CryptoServiceProvider provider 
+                = new System.Security.Cryptography.MD5CryptoServiceProvider();
+            byte[] bytes = System.Text.Encoding.UTF8.GetBytes(s);
+            StringBuilder builder = new StringBuilder();
+            bytes = provider.ComputeHash(bytes);
+            foreach (byte b in bytes)
+                builder.Append(b.ToString("x2").ToLower());
+            return builder.ToString();
+        }
+
+        public static string MD5(Stream stream)
+        {
+            System.Security.Cryptography.MD5CryptoServiceProvider md5 
+                = new System.Security.Cryptography.MD5CryptoServiceProvider();
+            byte[] retVal = md5.ComputeHash(stream);
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < retVal.Length; i++)
+            {
+                sb.Append(retVal[i].ToString("x2"));
+            }
+            return sb.ToString();
+        }
+```
+
+## 7. 数据库null 和C# null 
+
+```
+数据库null转c# null值
+row.IsNull("Age") ? null : (int?)row["Age"];
+c# null转数据库null
+new SqlParameter("@Age", age??(object)DBNull.Value)
+```
+
+
 

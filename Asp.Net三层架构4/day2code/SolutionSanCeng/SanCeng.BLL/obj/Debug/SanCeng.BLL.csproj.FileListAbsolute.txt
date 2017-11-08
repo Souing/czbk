@@ -1,0 +1,9 @@
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.BLL\bin\Debug\SanCeng.BLL.dll
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.BLL\bin\Debug\SanCeng.BLL.pdb
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.BLL\bin\Debug\SanCeng.DAL.dll
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.BLL\bin\Debug\SanCeng.Model.dll
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.BLL\bin\Debug\SanCeng.DAL.pdb
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.BLL\bin\Debug\SanCeng.Model.pdb
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.BLL\obj\Debug\SanCeng.BLL.csprojResolveAssemblyReference.cache
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.BLL\obj\Debug\SanCeng.BLL.dll
+E:\如鹏.net课程\NET\三层架构2017\上课代码\SolutionSanCeng\SanCeng.BLL\obj\Debug\SanCeng.BLL.pdb
