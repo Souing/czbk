@@ -1,0 +1,24 @@
+        public static string MD5(string s)
+        {
+            System.Security.Cryptography.MD5CryptoServiceProvider provider 
+                = new System.Security.Cryptography.MD5CryptoServiceProvider();
+            byte[] bytes = System.Text.Encoding.UTF8.GetBytes(s);
+            StringBuilder builder = new StringBuilder();
+            bytes = provider.ComputeHash(bytes);
+            foreach (byte b in bytes)
+                builder.Append(b.ToString("x2").ToLower());
+            return builder.ToString();
+        }
+
+        public static string MD5(Stream stream)
+        {
+            System.Security.Cryptography.MD5CryptoServiceProvider md5 
+                = new System.Security.Cryptography.MD5CryptoServiceProvider();
+            byte[] retVal = md5.ComputeHash(stream);
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < retVal.Length; i++)
+            {
+                sb.Append(retVal[i].ToString("x2"));
+            }
+            return sb.ToString();
+        }
