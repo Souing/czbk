@@ -30,6 +30,8 @@ var person = (Person) constructorInfo.Invoke(new object[2]{"1","2"});
 > 事件语法：event Mydelegate mdl;
 >
 > 加了event关键字实现事件机制的好处：用了event事件，不可以修改事件已经注册的值；不可以冒充进行事件通知了。只能+=、-=！
+>
+> 两种概念，事件的声明需要委托
 
 ```
 public delegate void CardOutPutAction();

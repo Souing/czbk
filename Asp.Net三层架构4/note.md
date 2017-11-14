@@ -68,6 +68,16 @@ using (TransactionScope sc = new TransactionScope())
 row.IsNull("Age") ? null : (int?)row["Age"];
 c# null转数据库null
 new SqlParameter("@Age", age??(object)DBNull.Value)
+
+public static object FromDBValue(this object dbValue)
+{
+     return dbValue == DBNull.Value ? null : dbValue;
+}
+
+public static object ToDBVlaue(this object value)
+{
+     return value ?? DBNull.Value;
+}
 ```
 
 
