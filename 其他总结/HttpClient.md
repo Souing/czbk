@@ -79,5 +79,9 @@ public sealed class HttpClientHelper
 ## 9.0 链接
 
 * [使用HttpClient的优解](http://www.cnblogs.com/Wddpct/p/6229090.html)
+
 * [C# 中使用System.Net.Http.HttpClient 模拟登录博客园 (GET/POST)](http://www.cnblogs.com/amosli/p/3918538.html)
+
+* [C#中HttpClient使用注意：预热与长连接](http://www.cnblogs.com/dudu/p/csharp-httpclient-attention.html)
+
 
