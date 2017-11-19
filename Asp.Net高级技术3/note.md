@@ -35,6 +35,7 @@ var person = (Person) constructorInfo.Invoke(new object[2]{"1","2"});
 
 ```
 public delegate void CardOutPutAction();
+public delegate void CardOutPutHander();
 public event Action CardOutEvent;
 public event CardOutPutAction CardOutPutEvent;
 ```
@@ -59,6 +60,7 @@ public event CardOutPutAction CardOutPutEvent;
 >
 > 事件、索引器、属性本质上都是方法。（面试题）接口中可以定义什么？接口中只可以定义方法。接口中也可以定义“事件、索引器、属性”，因为他们本质上也都是方法。
 >
+> 事件是由一个私有的委托变量和add_XXX和remove_XXX方法组成
 
 ### 2.4 集合常用扩展方法
 
@@ -140,7 +142,7 @@ foreach (XmlNode stu in students)
 
 ## 9. 备忘
 
-### 1. 比较精度问题 
+### 9.1 比较精度问题 
 
 > 比较相等就判断他们的相差范围在某个精度内就认为他们相等，这个精度是自己设定的
 
@@ -152,7 +154,7 @@ if(Math.Abs(d1-d2)<0.001)
 	//相等
 }
 ```
-### 2. 比较对象引用问题 
+### 9.2 比较对象引用问题 
 > 判断是否是一个引用
 
 ```c#
@@ -168,7 +170,7 @@ object.ReferenceEquals(t1, t2)
 
 
 
-### 3. int、int.parse、convert.int区别
+### 9.3 int、int.parse、convert.int区别
 
 > (int)适合***简单数据类型***之间的转换；
 >
@@ -177,3 +179,11 @@ object.ReferenceEquals(t1, t2)
 > convert适合将***object***类类型转换成***int***类型
 >
 > Convert.ToInt32(null)会返回0而不会产生任何异常，但int.Parse(null)则会产生异常。
+
+## 9.4 属性、索引、事件
+
+> 属性： set;get;set_Age;get_Age
+>
+> 索引： get;set;set_Item;get_Item
+>
+> 事件：add;remove;add_XXX;remove_XXX
