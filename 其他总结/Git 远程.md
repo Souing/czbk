@@ -74,6 +74,8 @@
 >
 >    git remote –v 查看远程库的详细信息
 >
+>    git remote rm origin master 删除远程关联
+>
 >    git push origin master  Git会把master分支推送到远程库对应的远程分支上
 
 ## 8.0 查看历史命令
