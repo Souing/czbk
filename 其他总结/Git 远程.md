@@ -76,6 +76,8 @@
 >
 >    git remote rm origin master 删除远程关联
 >
+>    git remote rename github gh 重命名远程仓库
+>
 >    git push origin master  Git会把master分支推送到远程库对应的远程分支上
 
 ## 8.0 查看历史命令
