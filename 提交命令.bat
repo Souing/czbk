@@ -1,6 +1,7 @@
 git add -A
 
-git commit -m''
+git commit -m @pause
+''
 
 git push origin master
 
