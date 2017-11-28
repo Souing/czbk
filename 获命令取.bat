@@ -1,4 +1,4 @@
 git pull origin master
-::ÕâÀïÊÇ×¢ÊÍ
 
+::this is moment
 @pause
