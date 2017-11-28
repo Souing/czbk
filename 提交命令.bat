@@ -1,10 +1,8 @@
 git add -A
 
-git commit -m @pause
-''
-
+@set /p moment=请输入备注: 
+git commit -m"%moment%"
 git push origin master
 
-::这里是注释
-
 @pause
+
