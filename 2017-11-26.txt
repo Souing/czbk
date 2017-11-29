@@ -4,3 +4,4 @@ BinaryFormatter
 脑图 naotu.baidu.com
 https://chrome.google.com/webstore/detail/gliffy-diagrams/bhmicilclplefnflapjmnngmkkkkpfad?hl=zh-CN
 马克飞象 
+翻译插件
