@@ -1,3 +1,6 @@
 进程内存什么关系
 ashx、aspx都运行在服务器端。shtml也是需要在服务器端拼接再返回给浏览器的
 BinaryFormatter
+脑图 naotu.baidu.com
+https://chrome.google.com/webstore/detail/gliffy-diagrams/bhmicilclplefnflapjmnngmkkkkpfad?hl=zh-CN
+马克飞象 
