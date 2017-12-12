@@ -1,0 +1,14 @@
+﻿@model WebApplication1.Models.Person
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+<form action="~/Person/Edit" method="post">
+    <input type="hidden" name="Id" value="@Model.Id"/>
+    姓名：<input type="text" name="Name" value="@Model.Name" />
+    年龄：<input type="text" name="Age" value="@Model.Age"  />
+    <input type="submit" />
+</form>

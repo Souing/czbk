@@ -1,0 +1,56 @@
+﻿@model WebApplication1.Models.IndexModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @ViewData["myname"]<br/>
+        @ViewData["age"]<br/>
+        @ViewBag.gender<br/>
+        @ViewBag.myname<br/>
+        @ViewData["name2"]
+        </p>
+
+    @{ string s = "rupeng";}
+    abc@s.ashx
+    @s.Length
+    @{ string qq = "afdasdfa";}
+  	<li>item_@(qq.Length)</li>
+        <span>333@qq.com</span>
+        <span>333@(qq).com</span>
+        <a href="abc(@s).ashx">aaa</a>
+        <a href="abc@(s).ashx">aaa</a>
+        <div>
+            <form action="/Test/Index" method="post">
+                @Model.Num1
+
+                Num1:<input type="text" name="Num1" value="@Model.Num1" />+
+                Num2:<input type="text" name="Num2" value="@Model.Num2" />
+                <input type="submit" value="=" />
+                <span>@Model.Result</span>
+            </form>
+        </div>
+
+    @{ bool isOK = true;}
+    <div style='color:@(isOK?"red":"green")'>rupeng.com</div>
+    <div style="color:@(isOK?"red":"green")">rupeng.com</div>
+    @{ string s1 = "<a href='www.rupeng.com'>rupeng</a>";}
+    @s1
+    @Html.Raw(s1)
+    <a href="~/1.jpg">aaa</a>
+    @{ bool b1 = false;}
+
+    <span hello="@b1">88888888888888<span>
+    <input type="checkbox" checked="@b1"/>
+
+        @this.GetType().Assembly.Location
+    <script>
+    </script>
+</body>
+</html>

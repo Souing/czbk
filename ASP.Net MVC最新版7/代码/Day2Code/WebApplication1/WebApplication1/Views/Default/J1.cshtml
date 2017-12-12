@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "J1";
+}
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#btn1").click(function () {
+            $.ajax({
+                url: "/Default/JsonTest1",
+                type: "post", dataType: "json",
+                success:function(obj)
+                {
+                    alert(obj.CreateDate);
+                },
+                error:function()
+                {
+                    alert("derror");
+                }
+            });
+        });
+    });
+</script>
+<h2>J1</h2>
+<button id="btn1">点我</button>
+
+

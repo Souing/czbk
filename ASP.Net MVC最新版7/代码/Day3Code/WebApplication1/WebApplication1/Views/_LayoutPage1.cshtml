@@ -1,0 +1,31 @@
+﻿@using WebApplication1.Models;
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@Page.Haha-如鹏网</title>
+</head>
+<body>
+
+    @RenderSection("Header")
+
+    如鹏网 rupeng.com 欢迎光临<br/>
+    <div>
+        @RenderBody()
+    </div>
+    @if(IsSectionDefined("Sec1"))
+    {
+        @RenderSection("Sec1")
+    }
+    else
+    {
+        <text>这是默认的内容</text>
+    }
+
+    <br />
+    关于我们
+    @RenderSection("Footer",false)
+</body>
+</html>

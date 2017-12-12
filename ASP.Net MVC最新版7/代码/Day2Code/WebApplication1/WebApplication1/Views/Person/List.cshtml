@@ -1,0 +1,23 @@
+﻿@model System.Data.DataTable
+@using System.Data;
+
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>List</h2>
+<a href="~/Person/Add">新增</a>
+<table>
+    <thead>
+        <tr><td>操作</td><td>姓名</td><td>年龄</td></tr>
+    </thead>
+    <tbody>
+        @foreach(DataRow row in Model.Rows)
+        {
+            <tr><td><a href="~/Person/Edit?id=@row["Id"]">编辑</a>
+                    <a href="~/Person/Delete?id=@row["Id"]">删除</a>
+                </td><td>@row["Name"]</td><td>@row["Age"]</td></tr>
+        }
+    </tbody>
+</table>
+

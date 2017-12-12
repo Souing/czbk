@@ -1,0 +1,21 @@
+﻿@model MVCTest1.Models.HomeIndexModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        班级名称：@Model.Class.Name<br/>
+        <ul>
+        @foreach(var s in Model.Students)
+        {
+            <li>@s.Name (@s.Class.Address)</li>
+        }
+        </ul>
+    </div>
+</body>
+</html>

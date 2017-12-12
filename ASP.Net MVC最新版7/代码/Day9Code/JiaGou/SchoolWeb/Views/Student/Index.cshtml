@@ -1,0 +1,28 @@
+﻿@model IEnumerable<StudentDTO>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>班级学生列表</title>
+</head>
+<body>
+    <a href="~/Student/AddNew">新增</a>
+    <table>
+       <thead>
+           <tr><td>删除</td><td>姓名</td><td>年龄</td><td>民族</td></tr>
+       </thead>
+        <tbody>
+            @foreach (var s in Model)
+            {
+                <tr><td><a href="~/Student/Delete?id=@s.Id" 
+                           onclick="return confirm('真的要删除@(s.Name)吗');">删除</a></td><td>@s.Name</td><td>@s.Age</td><td>@s.MinZuName</td></tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,5 +1,8 @@
 设定我整个应用程序的空间里面用container做autofac的解释器，因为MVC也是从DependencyResolve.SetResolve拿对象，
 创建的autofac作为mvc的标准容器，mvc也会管咱们要对象
 
+
 Install-Package Autofac.MVC5
+
 Install-Package EntityFramework
+Install-Package FluentScheduler

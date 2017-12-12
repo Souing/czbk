@@ -1,0 +1,24 @@
+﻿@model IEnumerable<SelectListItem>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DDL1</title>
+    <style>
+        .info {
+            color:red;
+        }
+        </style>
+</head>
+<body>
+    @Html.DropDownList("pid",Model,new { id="hah",aaa="ccc",@class="info"})
+    <div> 
+    </div>
+</body>
+</html>
