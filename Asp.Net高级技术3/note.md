@@ -19,6 +19,16 @@ ConstructorInfo constructorInfo = type.GetConstructor(new Type[2] { typeof(strin
 var person = (Person) constructorInfo.Invoke(new object[2]{"1","2"});
 ```
 
+### 1.2 反射用到的方法
+
+#### 1.2.1 判断某个类是否实现了某个接口(Interface)
+```
+ typeof(IFoo).IsAssignableFrom(bar.GetType());
+```
+#### 1.2.2 判断类的继承关系
+```
+ typeof(FooClass).IsSubclassOf(typeof(BarClass)) == true
+```
 ## 2. 委托、lambda、事件(新版)
 
 ### 2.1 委托和事件的概念语法 
